@@ -64,3 +64,46 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Global */
+
+.container{
+	width: 95%;
+	margin: 1% 1.5%;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+/* Header */
+
+header {
+	min-height: 70px;
+	padding: 25px 0;
+}
+
+.logo {
+	float: right;
+
+}
+
+header nav{
+	float: left;
+	margin: auto;
+	border: 5px;
+	padding: 10px 0;
+}
+
+header nav li {
+	float: left;
+	display: inline;
+}
+
+header nav li a {
+	text-decoration: none;
+	color: dimgray;
+	font-size: 23px;
+	padding: 10px 25px;
+}
