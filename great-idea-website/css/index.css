@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: rgb(39, 36, 36);
 }
 ol, ul {
 	list-style: none;
@@ -67,22 +68,31 @@ h1, h2, h3, h4, h5 {
 
 /* Global */
 
+.interface {
+	width: 50%;
+	margin: auto;
+	background-color: white;
+}
+
 .container{
-	width: 95%;
+	width: 88%;
 	margin: auto;
 	overflow: hidden;
 }
 
 /* Header */
 
-header {
-	min-height: 70px;
-	padding: 25px 0;
+.container-header {
+	width: 88%;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	overflow: hidden;
 }
 
-.logo {
-	float: right;
-
+header {
+	min-height: 60px;
+	padding: 20px 0;
 }
 
 header nav{
@@ -100,8 +110,8 @@ header nav li {
 header nav li a {
 	text-decoration: none;
 	color: dimgray;
-	font-size: 23px;
-	padding: 10px 25px;
+	font-size: 14px;
+	padding: 25px;
 }
 
 /* Hero */
@@ -110,17 +120,17 @@ header nav li a {
 	text-align: center;
 	float: left;
 	margin: auto;
-	padding: 10%;
+	padding: 2%;
 }
 
 #slogan {
-	font-size: 80px;
+	font-size: 70px;
 }
 
 #button {
-	font-size: 30px;
-	border: 3px solid black;
-	width: 80%;
+	font-size: 15px;
+	border: 3px solid gray;
+	width: 60%;
 	margin: auto;
 	padding: 3%;
 }
@@ -128,5 +138,29 @@ header nav li a {
 #button a {
 	text-decoration: none;
 	color:  black;
+}
+
+/* Boxes */
+
+.container #box-bigger{
+	display: flex;
+	justify-content: space-around;
+	margin: 5% 0;
+}
+
+.box {
+	padding: 1%;
+}
+
+/* Footer */
+
+.container-footer {
+	width: 88%;
+	margin: 0 6%;
+	overflow: hidden;
+}
+
+#copyright {
+	text-align: center;
 }
 
