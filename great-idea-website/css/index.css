@@ -156,11 +156,15 @@ header nav li a {
 
 .container-footer {
 	width: 88%;
-	margin: 0 6%;
+	margin: 5% 6%;
 	overflow: hidden;
 }
 
 #copyright {
 	text-align: center;
+	margin: 5% 0;
 }
 
+#double-spaced {
+	line-height: 2;
+}
